@@ -30,6 +30,14 @@ chmod +x main.py
 python main.py [directory] [options]
 ```
 
+## ⚙️ Options
 
+- `directory`: Directory to process (default: current directory)
+- `-a, --all`: Show hidden files and directories
+- `-d, --max-depth`: Maximum depth of directories to display
+- `-f, --files-only`: Show only files, not directories
+- `-D, --dirs-only`: Show only directories, not files
+- `-s, --size`: Show file sizes
+- `-p, --pattern`: Include only entries that match the pattern (can specify multiple patterns)
 
 
