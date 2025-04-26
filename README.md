@@ -82,4 +82,12 @@ python main.py -p "*.py" -p "*.txt"
 python main.py ~/projects -a -d 3 -s -p "*.py"
 ```
 
+## 💡 Tips
+
+- Use the `-d` option to limit depth when visualizing large directory structures
+- Use the `-p` option with wildcards like `*.py` to focus on specific file types
+- The `-s` option is useful to identify large files in a directory
+- Combine `-D` and `-d` to get a quick overview of a directory's structure
+- The output can be redirected to a file to save the tree: `python main.py > tree.txt`
+
 
