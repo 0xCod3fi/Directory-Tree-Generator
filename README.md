@@ -15,7 +15,7 @@ A simple command-line tool that generates a visual representation of directory s
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/directory-tree.git
+git clone https://github.com/0xCod3fi/directory-tree.git
 cd directory-tree
 ```
 
@@ -23,5 +23,13 @@ cd directory-tree
 ```bash
 chmod +x main.py
 ```
+
+## 🔍 Usage
+
+```bash
+python main.py [directory] [options]
+```
+
+
 
 
