@@ -40,4 +40,46 @@ python main.py [directory] [options]
 - `-s, --size`: Show file sizes
 - `-p, --pattern`: Include only entries that match the pattern (can specify multiple patterns)
 
+## 📝 Examples
+
+### Display the tree of the current directory:
+```bash
+python main.py
+```
+
+### Display a specific directory:
+```bash
+python main.py /path/to/directory
+```
+
+### Show hidden files and directories:
+```bash
+python main.py -a
+```
+
+### Limit the depth of directories:
+```bash
+python main.py -d 2
+```
+
+### Show only directories:
+```bash
+python main.py -D
+```
+
+### Show file sizes:
+```bash
+python main.py -s
+```
+
+### Filter entries by pattern:
+```bash
+python main.py -p "*.py" -p "*.txt"
+```
+
+### Combine multiple options:
+```bash
+python main.py ~/projects -a -d 3 -s -p "*.py"
+```
+
 
