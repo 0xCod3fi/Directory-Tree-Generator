@@ -90,4 +90,6 @@ python main.py ~/projects -a -d 3 -s -p "*.py"
 - Combine `-D` and `-d` to get a quick overview of a directory's structure
 - The output can be redirected to a file to save the tree: `python main.py > tree.txt`
 
+## 📄 License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
